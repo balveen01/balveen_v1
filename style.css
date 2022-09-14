@@ -1,40 +1,12 @@
-.intro {
-    width:100%;
-    margin: auto;
-    overflow: hidden;
+body {
+    background-color: rgb(248, 240, 227);
 }
 
-.left{
-    width: 50%;
-    float:left;
-    margin-left:35px;
-    box-sizing: border-box;
-    padding-top: 50px;
+.about_me {
+    font-size: 1.2rem;
 }
 
-.right{
-    float:right;    
-    box-sizing: border-box;
-    margin-right: 10%;
-    
-}
-
-.left p{
-    font-size: 20px;
-}
-
-@media(max-width: 600px) {
-    .left {
-        width: 100%;
-        float: none;
-        margin-left: 10px;
-    }
-
-    .left p{
-        font-size: 16px;
-    }
-    .right, img {
-        width: 100%;
-        float: none;
-    }
+.education_logo{
+    width: "700px";
+    height: "320px";
 }

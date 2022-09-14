@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../style.css">
+
+    <title>Education</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: Navy;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Balveen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">About Me</a>
+                    <a class="nav-link active" href="education.html">Education</a>
+                    <a class="nav-link" href="../experience/experience.html">Work Experience</a>
+                    <a class="nav-link" href="#">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center my-5 display-1 text-center">
+        Education
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-md-6 d-flex justify-content-center align-items-center mb-5">
+                <a href="smu.html">
+                    <div class="card">
+                        <img src="../../images/smu-logo.jpg" class="card-img-top img-fluid" id="smu_image"  style='width:700px; height:320px'>
+                        <h5><span
+                                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success">
+                                2021-2025
+                        </h5>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center mb-5">
+                <a href="nyp.html">
+                    <div class="card">
+                        <img src="../../images/nyp.png" class="card-img-top img-fluid" id="nyp_image" style='width:700px; height:320px'>
+                        <h5><span
+                                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary">
+                                2018-2021
+                        </h5>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer mt-auto py-3" style="background-color: navy;">
+        <div class="container">
+            <span class="text-muted">
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        document.getElementById("smu_image").addEventListener("mouseover", mouseOver_smu);
+        document.getElementById("smu_image").addEventListener("mouseout", mouseOut_smu);
+
+        document.getElementById("nyp_image").addEventListener("mouseover", mouseOver_nyp);
+        document.getElementById("nyp_image").addEventListener("mouseout", mouseOut_nyp);
+
+        function mouseOver_smu() {
+            document.getElementById("smu_image").style.width = "800px";
+            document.getElementById("smu_image").style.height = "420px";
+        }
+
+        function mouseOut_smu() {
+            document.getElementById("smu_image").style.width = "700px";
+            document.getElementById("smu_image").style.height = "320px";
+        }
+
+        function mouseOver_nyp() {
+            document.getElementById("nyp_image").style.width = "800px";
+            document.getElementById("nyp_image").style.height = "420px";
+        }
+
+        function mouseOut_nyp() {
+            document.getElementById("nyp_image").style.width = "700px";
+            document.getElementById("nyp_image").style.height = "320px";
+        }
+    </script>
+
+</body>
+
+</html>
