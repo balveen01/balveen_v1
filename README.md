@@ -1,4 +1,4 @@
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi!+I+am+Balveen+%3A);Nice+to+meet+you)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi!+I+am+Balveen;Nice+to+meet+you)](https://git.io/typing-svg)
 
 ## About Me
 - I'm a Penultimate student at Singapore Management University
